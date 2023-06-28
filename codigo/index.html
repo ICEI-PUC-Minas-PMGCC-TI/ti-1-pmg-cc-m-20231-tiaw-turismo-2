@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Busca Personalizada</title>
+  </head>
+  <body>
+    <h1>Busca Personalizada</h1>
+
+    <form id="search-form">
+      <label for="bairro">Bairro:</label>
+      <select id="bairro">
+        <option value="">Todos</option>
+        <option value="Savassi">Savassi</option>
+        <option value="Lourdes">Lourdes</option>
+        <option value="Funcionários">Funcionários</option>
+        <option value="Pampulha">Pampulha</option>
+        <option value="Centro">Centro</option>
+      </select>
+
+      <label for="tipo">Tipo:</label>
+      <select id="tipo">
+        <option value="">Todos</option>
+        <option value="Restaurante">Restaurante</option>
+        <option value="Bar">Bar</option>
+        <option value="Parque">Parque</option>
+        <option value="Museu">Museu</option>
+      </select>
+
+      <label for="orcamento">Orçamento:</label>
+      <select id="orcamento">
+        <option value="">Todos</option>
+        <option value="$">$</option>
+        <option value="$$">$$</option>
+        <option value="$$$">$$$</option>
+      </select>
+
+      <label for="avaliacao">Avaliação:</label>
+      <select id="avaliacao">
+        <option value="">Todas</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <label for="popularidade">Popularidade:</label>
+      <select id="popularidade">
+        <option value="">Todas</option>
+        <option value="Baixa">Baixa</option>
+        <option value="Média">Média</option>
+        <option value="Alta">Alta</option>
+      </select>
+
+      <label for="funcionamento">Funcionamento:</label>
+      <select id="funcionamento">
+        <option value="">Todos</option>
+        <option value="Segunda">Segunda-feira</option>
+        <option value="Terça">Terça-feira</option>
+        <option value="Quarta">Quarta-feira</option>
+        <option value="Quinta">Quinta-feira</option>
+        <option value="Sexta">Sexta-feira</option>
+        <option value="Sábado">Sábado</option>
+        <option value="Domingo">Domingo</option>
+      </select>
+
+      <button type="submit">Buscar</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
