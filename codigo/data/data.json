@@ -1,0 +1,229 @@
+{
+  "bairros": [
+    {
+      "nome": "Savassi",
+      "locais": [
+        {
+          "tipo": "Restaurante",
+          "nome": "Restaurante da Savassi",
+          "endereco": "Rua A, 123",
+          "orcamento": "$$$",
+          "avaliacao": 4,
+          "popularidade": "Alta",
+          "funcionamento": "Segunda a sexta, das 12h às 22h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Bar",
+          "nome": "Bar da Savassi",
+          "endereco": "Avenida B, 456",
+          "orcamento": "$$",
+          "avaliacao": 4,
+          "popularidade": "Média",
+          "funcionamento": "Terça a sábado, das 18h às 02h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Parque",
+          "nome": "Parque da Savassi",
+          "endereco": "Rua C, 789",
+          "orcamento": "Gratuito",
+          "avaliacao": 5,
+          "popularidade": "Alta",
+          "funcionamento": "Aberto todos os dias, das 06h às 18h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Museu",
+          "nome": "Museu da Savassi",
+          "endereco": "Avenida D, 1011",
+          "orcamento": "$",
+          "avaliacao": 2,
+          "popularidade": "Baixa",
+          "funcionamento": "Quarta a domingo, das 10h às 16h",
+          "foto": "img/foto.png"
+        }
+      ]
+    },
+    {
+      "nome": "Lourdes",
+      "locais": [
+        {
+          "tipo": "Restaurante",
+          "nome": "Restaurante do Lourdes",
+          "endereco": "Rua E, 121",
+          "orcamento": "$$",
+          "avaliacao": 4,
+          "popularidade": "Alta",
+          "funcionamento": "Segunda a sábado, das 11h às 23h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Bar",
+          "nome": "Bar do Lourdes",
+          "endereco": "Avenida F, 454",
+          "orcamento": "$$$",
+          "avaliacao": 2,
+          "popularidade": "Média",
+          "funcionamento": "Quarta a domingo, das 18h às 03h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Parque",
+          "nome": "Parque do Lourdes",
+          "endereco": "Rua G, 787",
+          "orcamento": "Gratuito",
+          "avaliacao": 5,
+          "popularidade": "Alta",
+          "funcionamento": "Aberto todos os dias, das 07h às 19h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Museu",
+          "nome": "Museu do Lourdes",
+          "endereco": "Avenida H, 1013",
+          "orcamento": "$",
+          "avaliacao": 5,
+          "popularidade": "Baixa",
+          "funcionamento": "Terça a sábado, das 09h às 17h",
+          "foto": "img/foto.png"
+        }
+      ]
+    },
+    {
+      "nome": "Funcionários",
+      "locais": [
+        {
+          "tipo": "Restaurante",
+          "nome": "Restaurante do Funcionários",
+          "endereco": "Rua I, 125",
+          "orcamento": "$$",
+          "avaliacao": 3,
+          "popularidade": "Média",
+          "funcionamento": "Segunda a sábado, das 12h às 23h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Bar",
+          "nome": "Bar do Funcionários",
+          "endereco": "Avenida J, 458",
+          "orcamento": "$$",
+          "avaliacao": 2,
+          "popularidade": "Baixa",
+          "funcionamento": "Quinta a sábado, das 19h às 02h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Parque",
+          "nome": "Parque do Funcionários",
+          "endereco": "Rua K, 791",
+          "orcamento": "Gratuito",
+          "avaliacao": 4,
+          "popularidade": "Alta",
+          "funcionamento": "Aberto todos os dias, das 08h às 20h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Museu",
+          "nome": "Museu do Funcionários",
+          "endereco": "Avenida L, 1015",
+          "orcamento": "$",
+          "avaliacao": 4,
+          "popularidade": "Alta",
+          "funcionamento": "Terça a domingo, das 10h às 18h",
+          "foto": "img/foto.png"
+        }
+      ]
+    },
+    {
+      "nome": "Pampulha",
+      "locais": [
+        {
+          "tipo": "Restaurante",
+          "nome": "Restaurante da Pampulha",
+          "endereco": "Rua M, 127",
+          "orcamento": "$$$",
+          "avaliacao": 5,
+          "popularidade": "Alta",
+          "funcionamento": "Segunda a sexta, das 12h às 22h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Bar",
+          "nome": "Bar da Pampulha",
+          "endereco": "Avenida N, 460",
+          "orcamento": "$$",
+          "avaliacao": 2,
+          "popularidade": "Média",
+          "funcionamento": "Terça a sábado, das 18h às 02h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Parque",
+          "nome": "Parque da Pampulha",
+          "endereco": "Rua O, 793",
+          "orcamento": "Gratuito",
+          "avaliacao": 5,
+          "popularidade": "Alta",
+          "funcionamento": "Aberto todos os dias, das 06h às 18h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Museu",
+          "nome": "Museu da Pampulha",
+          "endereco": "Avenida P, 1017",
+          "orcamento": "$",
+          "avaliacao": 4,
+          "popularidade": "Média",
+          "funcionamento": "Quarta a domingo, das 10h às 16h",
+          "foto": "img/foto.png"
+        }
+      ]
+    },
+    {
+      "nome": "Centro",
+      "locais": [
+        {
+          "tipo": "Restaurante",
+          "nome": "Restaurante do Centro",
+          "endereco": "Rua Q, 129",
+          "orcamento": "$$",
+          "avaliacao": 4,
+          "popularidade": "Média",
+          "funcionamento": "Segunda a sábado, das 11h às 23h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Bar",
+          "nome": "Bar do Centro",
+          "endereco": "Avenida R, 462",
+          "orcamento": "$$$",
+          "avaliacao": 2,
+          "popularidade": "Baixa",
+          "funcionamento": "Quarta a domingo, das 18h às 03h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Parque",
+          "nome": "Parque do Centro",
+          "endereco": "Rua S, 795",
+          "orcamento": "Gratuito",
+          "avaliacao": 4,
+          "popularidade": "Alta",
+          "funcionamento": "Aberto todos os dias, das 07h às 19h",
+          "foto": "img/foto.png"
+        },
+        {
+          "tipo": "Museu",
+          "nome": "Museu do Centro",
+          "endereco": "Avenida T, 1019",
+          "orcamento": "$",
+          "avaliacao": 1,
+          "popularidade": "Baixa",
+          "funcionamento": "Terça a sábado, das 09h às 17h",
+          "foto": "img/foto.png"
+        }
+      ]
+    }
+  ]
+}
