@@ -80,5 +80,6 @@ searchForm.addEventListener("submit", (event) => {
     });
 
     resultsContainer.innerHTML = html; // Exibe o HTML dos resultados no container
+    searchForm.reset(); // Limpa o formulário
   };
 });
