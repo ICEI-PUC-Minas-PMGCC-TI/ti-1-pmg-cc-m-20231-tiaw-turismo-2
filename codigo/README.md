@@ -1,7 +1,7 @@
 # Estrutura de Diretórios
 
 ```shell
-  . 
+  .  
   │  
   ├── README.md  
   ├── index.html  
@@ -11,7 +11,8 @@
   ├── styles/  
   │  
   ├── scripts/  
-  │      └── filteredSearch.js  
+  │      ├── filteredSearch.js  
+  │      └── dynamicOptions.js  
   │  
   ├── data/  
   │     └── data.json  
