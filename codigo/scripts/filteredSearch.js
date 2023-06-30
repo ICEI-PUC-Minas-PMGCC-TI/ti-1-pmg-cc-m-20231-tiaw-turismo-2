@@ -7,12 +7,12 @@ searchForm.addEventListener("submit", (event) => {
   event.preventDefault(); // Impede o envio do formulário
 
   // Obtém os valores dos campos de entrada do formulário
-  const bairro = document.getElementById("bairro").value; // Valor do campo "bairro"
-  const tipo = document.getElementById("tipo").value; // Valor do campo "tipo"
-  const orcamento = document.getElementById("orcamento").value; // Valor do campo "orcamento"
-  const avaliacao = document.getElementById("avaliacao").value; // Valor do campo "avaliacao"
-  const popularidade = document.getElementById("popularidade").value; // Valor do campo "popularidade"
-  const funcionamento = document.getElementById("funcionamento").value; // Valor do campo "funcionamento"
+  const neighborhood = document.getElementById("neighborhood").value; // Valor do campo "neighborhood"
+  const type = document.getElementById("type").value; // Valor do campo "type"
+  const budget = document.getElementById("budget").value; // Valor do campo "budget"
+  const rating = document.getElementById("rating").value; // Valor do campo "rating"
+  const popularity = document.getElementById("popularity").value; // Valor do campo "popularity"
+  const openingHours = document.getElementById("openingHours").value; // Valor do campo "openingHours"
 
   const url = "data/data.json"; // URL do arquivo de dados JSON
 
@@ -22,60 +22,99 @@ searchForm.addEventListener("submit", (event) => {
     .then((data) =>
       filterResults(
         data,
-        bairro,
-        tipo,
-        orcamento,
-        avaliacao,
-        popularidade,
-        funcionamento
+        neighborhood,
+        type,
+        budget,
+        rating,
+        popularity,
+        openingHours
       )
     ) // Filtra os resultados com base nos critérios de pesquisa
-    .then((filteredResults) => displayResults(filteredResults)) // Exibe os resultados filtrados
+    .then((filteredLocations) => displayLocations(filteredLocations)) // Exibe os resultados filtrados
     .catch((error) => console.error(error)); // Lida com erros durante a requisição
 
   // Função para filtrar os resultados com base nos critérios de pesquisa
   const filterResults = (
     data,
-    bairro,
-    tipo,
-    orcamento,
-    avaliacao,
-    popularidade,
-    funcionamento
+    neighborhood,
+    type,
+    budget,
+    rating,
+    popularity,
+    openingHours
   ) => {
-    return data.bairros
-      .filter((b) => bairro === "" || b.nome === bairro) // Filtra os bairros com base no critério "bairro"
-      .map((bairro) => {
-        bairro.locais = bairro.locais.filter(
-          (local) =>
-            (tipo === "" || local.tipo === tipo) && // Filtra os locais com base no critério "tipo"
-            (orcamento === "" || local.orcamento === orcamento) && // Filtra os locais com base no critério "orcamento"
-            (avaliacao === "" || local.avaliacao === parseInt(avaliacao)) && // Filtra os locais com base no critério "avaliacao"
-            (popularidade === "" || local.popularidade === popularidade) && // Filtra os locais com base no critério "popularidade"
-            (funcionamento === "" ||
-              local.funcionamento.includes(funcionamento)) // Filtra os locais com base no critério "funcionamento"
+    return data.neighborhoods
+      .filter((n) => neighborhood === "" || n.name === neighborhood) // Filtra os bairros com base no critério "neighborhood"
+      .map((neighborhood) => {
+        neighborhood.locations = neighborhood.locations.filter(
+          (location) =>
+            (type === "" || location.type === type) && // Filtra os locais com base no critério "type"
+            (budget === "" || location.budget === budget) && // Filtra os locais com base no critério "budget"
+            (rating === "" || location.rating === parseInt(rating)) && // Filtra os locais com base no critério "rating"
+            (popularity === "" || location.popularity === popularity) && // Filtra os locais com base no critério "popularity"
+            (openingHours === "" ||
+              location.openingHours.includes(openingHours)) // Filtra os locais com base no critério "openingHours"
         );
-        return bairro;
+        return neighborhood;
       });
   };
 
-  // Função para exibir os resultados filtrados
-  const displayResults = (results) => {
+  // Função para criar os cards dos locais
+  const createLocationCard = (location) => {
+    const card = document.createElement("div");
+    card.classList.add("col-md-4", "shadow");
+
+    const cardContent = `
+      <div class="card border-0 mb-4">
+        <div class="bg-light p-3">
+          <img src="${
+            location.image
+          }" class="card-img-top rounded-1" alt="Foto ${location.name}">
+        </div>
+        <div class="card-body bg-light">
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <h5 class="card-title m-0">${location.name}</h5>
+            <small class="text-black-50 m-0">${location.type}</small>
+          </div>
+          <div class="d-flex justify-content-start align-items-center mb-2">
+            <div class="fs-4 m-0 me-2" id="rating">
+              ${getStarRating(location.rating)}
+            </div>
+            <p class="card-text m-0">(${location.rating})</p>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="card-text m-0">Orçamento: ${location.budget}</p>
+            <p class="card-text m-0">Popularidade: ${location.popularity}</p>
+          </div>
+        </div>
+      </div>
+    `;
+
+    card.innerHTML = cardContent;
+    return card;
+  };
+
+  // Função para obter o HTML das estrelas coloridas com base no rating
+  const getStarRating = (rating) => {
+    const maxRating = 5; // Número máximo de estrelas
+    let starHtml = "";
+
+    for (let i = 1; i <= maxRating; i++) {
+      const starClass = i <= rating ? "text-warning" : "text-dark";
+      starHtml += `<span class="${starClass}">&#9733;</span>`;
+    }
+
+    return starHtml;
+  };
+
+  // Função para exibir os cards dos locais na página (resultados filtrados)
+  const displayLocations = (results) => {
     let html = "";
-    results.map((bairro) => {
-      html += "<h2>" + bairro.nome + "</h2>"; // Título do bairro
-      bairro.locais.map((local) => {
-        html += "<div>";
-        html += '<img src="' + local.foto + '" alt="' + local.nome + '">'; // Imagem do local
-        html += "<h3>" + local.nome + "</h3>"; // Nome do local
-        html += "<p><strong>Endereço:</strong> " + local.endereco + "</p>"; // Endereço do local
-        html += "<p><strong>Orçamento:</strong> " + local.orcamento + "</p>"; // Orçamento do local
-        html += "<p><strong>Avaliações:</strong> " + local.avaliacao + "</p>"; // Avaliações do local
-        html +=
-          "<p><strong>Popularidade:</strong> " + local.popularidade + "</p>"; // Popularidade do local
-        html +=
-          "<p><strong>Funcionamento:</strong> " + local.funcionamento + "</p>"; // Funcionamento do local
-        html += "</div>";
+    results.map((neighborhood) => {
+      html += `<h2>${neighborhood.name}</h2>`; // Título do bairro
+      neighborhood.locations.map((location) => {
+        const locationCard = createLocationCard(location);
+        html += locationCard.outerHTML;
       });
     });
 
