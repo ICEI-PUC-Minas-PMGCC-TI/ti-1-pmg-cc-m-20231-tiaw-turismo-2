@@ -73,7 +73,7 @@ searchForm.addEventListener("submit", (event) => {
         </div>
         <div class="card-body bg-light">
           <div class="d-flex justify-content-between align-items-center mb-2">
-            <h5 class="card-title m-0">${location.name}</h5>
+            <h5 class="card-title text-primary m-0">${location.name}</h5>
             <small class="text-black-50 m-0">${location.type}</small>
           </div>
           <div class="d-flex justify-content-start align-items-center mb-2">
