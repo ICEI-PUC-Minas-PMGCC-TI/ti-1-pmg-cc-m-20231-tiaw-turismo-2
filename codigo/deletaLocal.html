@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iGo Tour</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="cadLocais.css">
+    <link rel="stylesheet" href="index.css">
+    <script>
+        function redirecionar() {
+            window.location.href = "./cadClientes.html";
+        }
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <img src="./img/BTN_Logo.png" alt="Logo">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./cadLocais.html">Cadastrar Local</a></li>
+        </ul>
+        <ul>
+            <li><button onclick="redirecionar()">Login</button></li>
+        </ul>
+    </div>
+    <div class="container-fluid bg-cadastro pt-5">
+    <form id="cadastroForm">
+        <label for="adress">Endereço do local a ser removido: </label>
+        <input type="text" id="adress" required class="w-100">
+
+        <button type="submit" id="delete">Excluir</button>
+
+      <script src="scripts/deletaLocal.js"></script>
+    </form>
+    </div>
+</body>
+</html>

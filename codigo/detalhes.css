@@ -1,0 +1,109 @@
+/*import*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #4070F4;
+}
+
+.title {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form {
+    padding: 20px 0px 20px 0px;
+    width: 549px;
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.form-box {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.campos-form {
+    width: 443px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.campos-form input {
+    height: 35px;
+    border-radius: 10px;
+    border: 0 solid white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    border-radius: 10px;
+}
+
+.campos-form label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.submit button{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    color: white;
+}
+
+/* Estrelas de avaliação */
+.avaliacao {
+    display: flex;
+}
+
+.star-icon {
+    margin-left: 5px;
+    list-style-type: none;
+    cursor: pointer;
+    color: #ffe500;
+    font-size: 30px;
+}
+
+.star-icon::before {
+    content: "\2605";
+}
+
+.star-icon.ativo ~ .star-icon::before{
+    content: "\2606";
+}
+
+.avaliacao:hover .star-icon::before {
+    content: "\2605";
+}
+
+.star-icon:hover ~ .star-icon::before{
+    content: "\2606";
+}
+
+
+
+/* Fim das strelas de avaliação */
