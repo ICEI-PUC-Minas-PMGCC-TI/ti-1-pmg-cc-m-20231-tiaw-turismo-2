@@ -1,0 +1,96 @@
+body {
+    background-image: url(img/background-rio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+#box {
+    display: flex;
+    justify-content: space-between;
+    margin: 15%;
+}
+
+.login {
+    width: 20em;
+    background-color: darkgrey;
+    background: rgba(39, 39, 39, 0.4);
+    border-radius: 13px;
+    padding: 1em;
+}
+
+#login-singin {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+#form-singin {
+    display: none;
+}
+
+#form-recoverPassword{
+    display: none;
+}
+
+.tittle-form {
+    font-family: 'Hind Jalandhar';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-bottom: .2em;
+}
+
+.inputusuario {
+    color: white;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #96A0A7;
+    padding: 5px;
+    font-size: 16px;
+    margin: 1em 0 1em 1.5em;
+}
+
+.inputusuario::placeholder {
+    color: white;
+    opacity: 50%;
+}
+
+.recoverPassword{
+    display: inline-block;
+    margin: 1em 0 1em 1.5em;
+    cursor: pointer;
+}
+
+#button-login{
+    color: white;
+    display: block;
+    margin-left: 1.5em;
+    background-color: #5138B8;
+    border: none;
+    outline: none;
+    padding: .5em 2em;
+    border-radius: 5px;
+}
+
+.selecionado {
+    border-bottom: 2px solid white;
+}
+
+.tittle-text {
+    color: #47CED7;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.tittle2-text {
+    color: white;
+}
+
+.sub-tittle-text{
+    font-size: 1.5em;
+}

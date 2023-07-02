@@ -1,0 +1,229 @@
+{
+  "neighborhoods": [
+    {
+      "name": "Savassi",
+      "locations": [
+        {
+          "type": "Restaurante",
+          "name": "Restaurante da Savassi",
+          "address": "Rua A, 123",
+          "budget": "$$$",
+          "rating": 4,
+          "popularity": "Alta",
+          "openingHours": "Segunda a sexta, das 12h às 22h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Bar",
+          "name": "Bar da Savassi",
+          "address": "Avenida B, 456",
+          "budget": "$$",
+          "rating": 4,
+          "popularity": "Média",
+          "openingHours": "Terça a sábado, das 18h às 02h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Parque",
+          "name": "Parque da Savassi",
+          "address": "Rua C, 789",
+          "budget": "Gratuito",
+          "rating": 5,
+          "popularity": "Alta",
+          "openingHours": "Aberto todos os dias, das 06h às 18h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Museu",
+          "name": "Museu da Savassi",
+          "address": "Avenida D, 1011",
+          "budget": "$",
+          "rating": 2,
+          "popularity": "Baixa",
+          "openingHours": "Quarta a domingo, das 10h às 16h",
+          "image": "https://picsum.photos/400/200"
+        }
+      ]
+    },
+    {
+      "name": "Lourdes",
+      "locations": [
+        {
+          "type": "Restaurante",
+          "name": "Restaurante do Lourdes",
+          "address": "Rua E, 121",
+          "budget": "$$",
+          "rating": 4,
+          "popularity": "Alta",
+          "openingHours": "Segunda a sábado, das 11h às 23h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Bar",
+          "name": "Bar do Lourdes",
+          "address": "Avenida F, 454",
+          "budget": "$$$",
+          "rating": 2,
+          "popularity": "Média",
+          "openingHours": "Quarta a domingo, das 18h às 03h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Parque",
+          "name": "Parque do Lourdes",
+          "address": "Rua G, 787",
+          "budget": "Gratuito",
+          "rating": 5,
+          "popularity": "Alta",
+          "openingHours": "Aberto todos os dias, das 07h às 19h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Museu",
+          "name": "Museu do Lourdes",
+          "address": "Avenida H, 1013",
+          "budget": "$",
+          "rating": 5,
+          "popularity": "Baixa",
+          "openingHours": "Terça a sábado, das 09h às 17h",
+          "image": "https://picsum.photos/400/200"
+        }
+      ]
+    },
+    {
+      "name": "Funcionários",
+      "locations": [
+        {
+          "type": "Restaurante",
+          "name": "Restaurante do Funcionários",
+          "address": "Rua I, 125",
+          "budget": "$$",
+          "rating": 3,
+          "popularity": "Média",
+          "openingHours": "Segunda a sábado, das 12h às 23h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Bar",
+          "name": "Bar do Funcionários",
+          "address": "Avenida J, 458",
+          "budget": "$$",
+          "rating": 2,
+          "popularity": "Baixa",
+          "openingHours": "Quinta a sábado, das 19h às 02h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Parque",
+          "name": "Parque do Funcionários",
+          "address": "Rua K, 791",
+          "budget": "Gratuito",
+          "rating": 4,
+          "popularity": "Alta",
+          "openingHours": "Aberto todos os dias, das 08h às 20h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Museu",
+          "name": "Museu do Funcionários",
+          "address": "Avenida L, 1015",
+          "budget": "$",
+          "rating": 4,
+          "popularity": "Alta",
+          "openingHours": "Terça a domingo, das 10h às 18h",
+          "image": "https://picsum.photos/400/200"
+        }
+      ]
+    },
+    {
+      "name": "Pampulha",
+      "locations": [
+        {
+          "type": "Restaurante",
+          "name": "Restaurante da Pampulha",
+          "address": "Rua M, 127",
+          "budget": "$$$",
+          "rating": 5,
+          "popularity": "Alta",
+          "openingHours": "Segunda a sexta, das 12h às 22h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Bar",
+          "name": "Bar da Pampulha",
+          "address": "Avenida N, 460",
+          "budget": "$$",
+          "rating": 2,
+          "popularity": "Média",
+          "openingHours": "Terça a sábado, das 18h às 02h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Parque",
+          "name": "Parque da Pampulha",
+          "address": "Rua O, 793",
+          "budget": "Gratuito",
+          "rating": 5,
+          "popularity": "Alta",
+          "openingHours": "Aberto todos os dias, das 06h às 18h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Museu",
+          "name": "Museu da Pampulha",
+          "address": "Avenida P, 1017",
+          "budget": "$",
+          "rating": 4,
+          "popularity": "Média",
+          "openingHours": "Quarta a domingo, das 10h às 16h",
+          "image": "https://picsum.photos/400/200"
+        }
+      ]
+    },
+    {
+      "name": "Centro",
+      "locations": [
+        {
+          "type": "Restaurante",
+          "name": "Restaurante do Centro",
+          "address": "Rua Q, 129",
+          "budget": "$$",
+          "rating": 4,
+          "popularity": "Média",
+          "openingHours": "Segunda a sábado, das 11h às 23h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Bar",
+          "name": "Bar do Centro",
+          "address": "Avenida R, 462",
+          "budget": "$$$",
+          "rating": 2,
+          "popularity": "Baixa",
+          "openingHours": "Quarta a domingo, das 18h às 03h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Parque",
+          "name": "Parque do Centro",
+          "address": "Rua S, 795",
+          "budget": "Gratuito",
+          "rating": 4,
+          "popularity": "Alta",
+          "openingHours": "Aberto todos os dias, das 07h às 19h",
+          "image": "https://picsum.photos/400/200"
+        },
+        {
+          "type": "Museu",
+          "name": "Museu do Centro",
+          "address": "Avenida T, 1019",
+          "budget": "$",
+          "rating": 1,
+          "popularity": "Baixa",
+          "openingHours": "Terça a sábado, das 09h às 17h",
+          "image": "https://picsum.photos/400/200"
+        }
+      ]
+    }
+  ]
+}

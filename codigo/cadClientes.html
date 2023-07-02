@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iGo Tour</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/cadClientes.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script>
+        function redirecionar() {
+            window.location.href = "./cadClientes.html";
+        }
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <img src="./img/BTN_Logo.png" alt="Logo">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./cadLocais.html">Cadastrar Local</a></li>
+        </ul>
+        <ul>
+            <li><button onclick="redirecionar()">Login</button></li>
+        </ul>
+    </div>
+
+    <div id="box">
+        <div class="login">
+            <div id="login-singin">
+                <h1 class="tittle-form selecionado" id="logintype">Login</h1>
+                <h1 class="tittle-form" id="singintype">Sing-In</h1>
+            </div>
+            <form id="form-login">
+                <input type="text" id="inputname" class="inputusuario" name="nusuario" placeholder="Nome de usuario" required><br>
+                <input type="password" id="inputsenha" class="inputusuario" name="susuario" placeholder="Senha" required>
+                <p id="recovertype" class="recoverPassword">Esqueci minha senha</p>
+                <input type="submit" id="button-login" value="Entrar">
+            </form>
+            <form id="form-singin">
+                <input type="text" id="inputnamefisico" class="inputusuario" name="nfisicousuario" placeholder="Nome completo" required><br>
+                <input type="text" id="inputname" class="inputusuario" name="nsigusuario" placeholder="Nome de usuario" required><br>
+                <input type="email" id="inputemail" class="inputusuario" name="eusuario" placeholder="Email" required><br>
+                <input type="password" id="inputsenha" class="inputusuario" name="ssigusuario" placeholder="Senha" required>
+                <input type="submit" id="button-login" value="Cadastrar">
+            </form>
+            <form id="form-recoverPassword">
+                <p class="recoverPassword">Informe o e-mail cadastrado:</p>
+                <input type="email" id="inputemail" class="inputusuario" name="erusuario" placeholder="Email" required><br>
+                <div id="recoverSubmit"></div>
+                <input type="submit" id="button-login" value="Enviar">
+            </form>
+        </div>
+        <div id="text">
+            <h1 class="tittle-text">Explore o Brasil<br><span class="tittle2-text">à sua maneira</span></h1>
+            <p class="sub-tittle-text">Encontre seu guia turístico ideal.</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./scripts/cadClientes.js"></script>
+</body>
+</html>
