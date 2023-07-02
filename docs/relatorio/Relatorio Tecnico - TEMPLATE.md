@@ -319,7 +319,7 @@ viagens. Nossa solução se dá em oferecer as informações de maneiras simples
 >
 > **Exemplo do diagrama de Arquitetura**:
 >
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+> ![Exemplo de Wireframe](images/diagrama.png)
 
 # Avaliação da Aplicação
 
