@@ -10,12 +10,17 @@ body {
 }
 
 #exibiLocais {
-  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+
 
 .card{
     background-color: #FFF;
     border-radius: 25px !important;
+    margin: 0 auto;
+    margin-bottom: 2em;
   }
 
   .image-content,
@@ -24,7 +29,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 10px 14px;
-    max-width: 300px;
+    min-width: 200px;
   }
   .image-content{
     position: relative;
