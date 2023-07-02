@@ -297,19 +297,13 @@ Utilizaremos também algumas tags para o desenvolvimento:
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Como dito anteriormente, a falta de informações pode acabar prejudicando a escolha e experiência das pessoas em suas
+viagens. Nossa solução se dá em oferecer as informações de maneiras simples e diretas aos usuários que buscam realizar viagens. Disponibilizamos ao usuário, com uma interface intuitiva, uma forma mais simples e eficiente de conseguir satisfazer seus gostos pessoais e poder ter viagens mais divertidas, interativas e que possam ser melhor aproveitadas de acordo com suas condições financeiras.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
+> As tecnologias utilizadas para desenvolvimento foram HTML, CSS, JavaScript e Bootstrap.
+> Outras tecnologias utilizadas para gerenciamento foram Git, GitHub, Miro, Visual Studio Code e Figma,
 >
 > Inclua os diagramas de User Flow, esboços criados pelo grupo
 > (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
