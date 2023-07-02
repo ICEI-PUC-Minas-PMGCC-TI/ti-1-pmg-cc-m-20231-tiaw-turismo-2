@@ -2,7 +2,7 @@ document.getElementById("cadastroForm").addEventListener("submit", function(even
             event.preventDefault(); 
 
             // Obter os valores dos campos
-            var neighborhoods = document.getElementById("regiao").value;
+            var neighborhood = document.getElementById("regiao").value;
             var name = document.getElementById("name").value;
             var type = document.getElementById("tipo").value;
             var address = document.getElementById("endereco").value;
@@ -27,7 +27,7 @@ document.getElementById("cadastroForm").addEventListener("submit", function(even
 
             if (!localRegistrado) {
                 var novoLocal = {
-                neighborhoods: neighborhoods,
+                neighborhood: neighborhood,
                 name: name,
                 type: type,
                 address: address,
