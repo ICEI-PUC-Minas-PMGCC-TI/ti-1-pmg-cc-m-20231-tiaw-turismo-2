@@ -316,58 +316,52 @@ Em seguida está disponibilizado em a imagem do diagrama do projeto web desenvol
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> 1.Registro de login de usuário.
-> 2.Registro de estabelecimentos para visitar.
-> 3.Registro de avaliações de usuário.
-> 4.Filtro de pesquisa.
-> 5.Exibição das avaliações de estabelecimentos.
-> 6.Retorno de locais para frequentar.
+> - 1.Cadastro de conta do usuário.
+> - 2.Registro de login de usuário.
+> - 3.Registro de estabelecimentos para visitar.
+> - 4.Registro de avaliações de usuário.
+> - 5.Filtro de pesquisa.
+> - 6.Exibição das avaliações de estabelecimentos.
+> - 7.Retorno de locais.
+> - 8. Exclusão de locais.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+1. Cadastro de conta do usuário:
+- Permite ao cliente criar sua conta e acessar o login.
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
->
-> **Links Úteis**:
->
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+2.Registro de login de usuário:
+- Cliente poderá acessar o site e desfrutar das funcionalidades que requerem login.
 
-## Ferramentas de Testes (Opcional)
+3. Registo de estabelecimentos para visitar:
+- Funcionalidade voltado aos administradores para permitir realizar o cadastro de novos locais para frequentar.
 
-......  COLOQUE AQUI O SEU TEXTO ......
+4. Registro de avaliações do usuário:
+- Capacidade dos usuário de registrar a sua experiência pessoal com o local frequentado.
 
-> Comente sobre as ferramentas de testes utilizadas.
->
-> **Links Úteis**:
->
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+5. Filtro de pesquisa:
+- Funcionalidade essencial para permitir que o usuário possa filtrar suas buscas e retornar os locais de interesse específicos.
+
+6. Exibição das avaliações dos estabelecimentos>
+- Permite que outros usuários possam visualizar avaliações e experiências registradas por clientes anteriores.
+
+7. Retorno de locais:
+- Funcionalidade que retorna tanto no filtro de busca personalizado, e também no registro geral dos locais cadastrados.
+
+8. Exclusão de locais:
+- Permite que os administradores possam excluir estabelecimentos do sistema.
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+> Os testes foram bem sucedidos, as funcionalidades foram testadas manualmente, tendo sido utilizado o console log para obter o retorno dos parâmetros desejados.
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
+> O projeto foi desenvolvido do zero, sem a utilização de muitas tecnologias. 
 >
 > **Links Úteis**:
 >
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+> - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
