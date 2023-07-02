@@ -318,9 +318,12 @@ Em seguida está disponibilizado em a imagem do diagrama do projeto web desenvol
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+> 1.Registro de login de usuário.
+> 2.Registro de estabelecimentos para visitar.
+> 3.Registro de avaliações de usuário.
+> 4.Filtro de pesquisa.
+> 5.Exibição das avaliações de estabelecimentos.
+> 6.Retorno de locais para frequentar.
 
 ## Plano de Testes
 
