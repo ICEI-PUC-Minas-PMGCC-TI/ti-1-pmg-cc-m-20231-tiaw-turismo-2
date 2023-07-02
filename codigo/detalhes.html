@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Local</title>
+    <link rel="stylesheet" href="detalhes.css">
+</head>
+<body>
+    <div class="card-container">
+        <h2 id="name"></h2>
+        <p id="endereco"></p>
+        <p id="openingHours"></p>
+    
+        <button onclick="goBack()">Voltar</button>
+    </div>
+    
+    <div class="container">
+        <div class="form-box">
+            <h2 class="title">Deixe uma avaliação</h2>
+
+            <form id="avaliacaoForm">
+                <div class="campos-form">
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+
+                <div class="campos-form">
+                    <label for="title">Título: </label>
+                    <input type="text" id="title" name="titulo">
+                </div>
+
+                <div class="campos-form">
+                    <label for="avalie">Comente sua experiência: </label>
+                    <textarea rows="4" cols="50" id="avalie" name="comentario"></textarea>
+                </div>
+
+                <div class="campos-form">
+                    <label for="Estabelec">Estabelecimento: </label>
+                    <input type="text" id="Estabelec" name="estabelecimento">
+                </div>
+
+                <div class="campos-form">
+                    <label for="classificacao">Classificação: </label>
+                    <ul class="avaliacao">
+                        <li class="star-icon ativo" data-avaliacao="1"></li>
+                        <li class="star-icon" data-avaliacao="2"></li>
+                        <li class="star-icon" data-avaliacao="3"></li>
+                        <li class="star-icon" data-avaliacao="4"></li>
+                        <li class="star-icon" data-avaliacao="5"></li>
+                    </ul>
+                </div>
+
+                <div class="submit" id="loucura">
+                    <button type="submit">Enviar</button>
+                </div>
+
+                <div class="submit">
+                    <button id="carregarDados">Mostrar dados salvos</button>
+                </div>
+
+                <div>
+                    <a id="btnAvaliacoes" onclick="redirectToDetails()" target="_blank">Ver avaliações</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./scripts/avaliacoes.js"></script>
+    <script src="./scripts/detalhes.js"></script>
+</body>
+</html>
