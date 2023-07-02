@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalhes do Local</title>
-    <link rel="stylesheet" href="detalhes.css">
+    <link rel="stylesheet" href="./styles/detalhes.css">
+    <link rel="stylesheet" href="./styles/detalhesInfo.css">
 </head>
 <body>
     <div class="card-container">
         <h2 id="name"></h2>
-        <p id="endereco"></p>
-        <p id="openingHours"></p>
+        <p id="regiao" class="description"></p>
+        <p id="address" class="description"></p>
+        <p id="openingHours" class="description"></p>
     
         <button onclick="goBack()">Voltar</button>
     </div>
@@ -53,10 +55,6 @@
 
                 <div class="submit" id="loucura">
                     <button type="submit">Enviar</button>
-                </div>
-
-                <div class="submit">
-                    <button id="carregarDados">Mostrar dados salvos</button>
                 </div>
 
                 <div>

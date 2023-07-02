@@ -133,7 +133,6 @@ function redirectToDetails(name) {
 const url = window.location.href;
 const urlObj = new URL(url);
 const nomeLugar = urlObj.searchParams.get("name");
-console.log(nomeLugar);
 
 document.addEventListener('DOMContentLoaded', function() {
   let container = document.getElementById('avaliacoesContainer');
@@ -165,11 +164,9 @@ document.addEventListener('DOMContentLoaded', function() {
       container.innerHTML = html;
     } else {
       container.innerHTML = '<p>Nenhum comentário registrado. Preencha o formulário de avaliação para ser exibido aqui!</p>';
-      console.log("aqui")
     }
   } else {
     container.innerHTML = '<p>Nenhum comentário registrado! <br>Preencha o formulário de avaliação para ser exibido aqui.</p>';
-    console.log("ali")
   }
 });
 
