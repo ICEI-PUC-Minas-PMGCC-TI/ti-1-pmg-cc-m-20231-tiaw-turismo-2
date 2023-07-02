@@ -46,7 +46,7 @@ function filterLocations(
 ) {
   return data.filter((location) => {
     return (
-      (neighborhood === "" || location.neighborhoods === neighborhood) &&
+      (neighborhood === "" || location.neighborhood === neighborhood) &&
       (type === "" || location.type === type) &&
       (budget === "" || location.budget === budget) &&
       (rating === "" || location.rating === parseInt(rating)) &&
