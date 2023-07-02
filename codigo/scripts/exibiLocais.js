@@ -20,7 +20,7 @@ for (var i = 0; i < locaisCadastrados.length; i++) {
         <p class="description">${local.address}</p>
         <p class="description">${local.openingHours}</p>
 
-        <button class="button" onclick="redirectToDetails('${local.name}', '${local.address}', '${local.openingHours}', '${local.neighborhoods}')">Explorar</button>
+        <button class="button" onclick="redirectToDetails('${local.name}', '${local.address}', '${local.openingHours}', '${local.neighborhood}')">Explorar</button>
       </div>
     </div>
   `;
@@ -32,8 +32,8 @@ var mateusSection = document.getElementById('exibiLocais');
 mateusSection.innerHTML = cardsHtml;
 
 
-function redirectToDetails(name, address, openingHours, neighborhoods) {
-  var url = 'detalhes.html?name=' + encodeURIComponent(name) + '&endereco=' + encodeURIComponent(address) + '&openingHours=' + encodeURIComponent(openingHours) + '&neighborhoods=' + encodeURIComponent(neighborhoods);
+function redirectToDetails(name, address, openingHours, neighborhood) {
+  var url = 'detalhes.html?name=' + encodeURIComponent(name) + '&endereco=' + encodeURIComponent(address) + '&openingHours=' + encodeURIComponent(openingHours) + '&neighborhoods=' + encodeURIComponent(neighborhood);
 
   window.location.href = url;
 }
