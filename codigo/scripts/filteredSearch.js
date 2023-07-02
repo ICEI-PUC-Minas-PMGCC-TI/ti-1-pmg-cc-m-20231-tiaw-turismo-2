@@ -49,9 +49,9 @@ function filterLocations(
       (neighborhood === "" || location.neighborhood === neighborhood) &&
       (type === "" || location.type === type) &&
       (budget === "" || location.budget === budget) &&
-      (rating === "" || location.rating === parseInt(rating)) &&
+      (rating === "" || location.rating === rating) &&
       (popularity === "" || location.popularity === popularity) &&
-      (openingHours === "" || location.openingHours === openingHours)
+      (openingHours === "" || location.openingHours.includes(openingHours))
     );
   });
 }
