@@ -7,7 +7,7 @@ var neighborhood = urlParams.get('neighborhood');
 document.getElementById('name').textContent = name;
 document.getElementById('address').textContent = endereco;
 document.getElementById('openingHours').textContent = openingHours;
-document.getElementById('regiao').textContent = neighborhoods;
+document.getElementById('regiao').textContent = neighborhood;
 
 function goBack() {
   window.history.back();
