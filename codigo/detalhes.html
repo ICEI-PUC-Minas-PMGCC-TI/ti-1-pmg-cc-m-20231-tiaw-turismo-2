@@ -6,63 +6,77 @@
     <title>Detalhes do Local</title>
     <link rel="stylesheet" href="./styles/detalhes.css">
     <link rel="stylesheet" href="./styles/detalhesInfo.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    <div class="card-container">
-        <h2 id="name"></h2>
-        <p id="regiao" class="description"></p>
-        <p id="address" class="description"></p>
-        <p id="openingHours" class="description"></p>
-    
-        <button onclick="goBack()">Voltar</button>
-    </div>
-    
-    <div class="container">
-        <div class="form-box">
-            <h2 class="title">Deixe uma avaliação</h2>
-
-            <form id="avaliacaoForm">
-                <div class="campos-form">
-                    <label for="nome">Nome: </label>
-                    <input type="text" id="nome" name="nome">
-                </div>
-
-                <div class="campos-form">
-                    <label for="title">Título: </label>
-                    <input type="text" id="title" name="titulo">
-                </div>
-
-                <div class="campos-form">
-                    <label for="avalie">Comente sua experiência: </label>
-                    <textarea rows="4" cols="50" id="avalie" name="comentario"></textarea>
-                </div>
-
-                <div class="campos-form">
-                    <label for="Estabelec">Estabelecimento: </label>
-                    <input type="text" id="Estabelec" name="estabelecimento">
-                </div>
-
-                <div class="campos-form">
-                    <label for="classificacao">Classificação: </label>
-                    <ul class="avaliacao">
-                        <li class="star-icon ativo" data-avaliacao="1"></li>
-                        <li class="star-icon" data-avaliacao="2"></li>
-                        <li class="star-icon" data-avaliacao="3"></li>
-                        <li class="star-icon" data-avaliacao="4"></li>
-                        <li class="star-icon" data-avaliacao="5"></li>
-                    </ul>
-                </div>
-
-                <div class="submit" id="loucura">
-                    <button type="submit">Enviar</button>
-                </div>
-
-                <div>
-                    <a id="btnAvaliacoes" onclick="redirectToDetails()" target="_blank">Ver avaliações</a>
-                </div>
-            </form>
+    <div class="navbar">
+        <img src="./img/BTN_Logo.png" alt="Logo">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./cadLocais.html">Cadastrar Local</a></li>
+          <li><a href="./allLocations.html">Ver Locais</a></li>
+        </ul>
+        <ul>
+          <li><button onclick="redirecionar()">Login</button></li>
+        </ul>
+      </div>
+    <div id="container-principal">
+        <div class="card-container">
+            <h2 id="name"></h2>
+            <p id="regiao" class="description"></p>
+            <p id="address" class="description"></p>
+            <p id="openingHours" class="description"></p>
+        
+            <button onclick="goBack()">Voltar</button>
         </div>
-    </div>
+        
+        <div class="container">
+            <div class="form-box">
+                <h2 class="title">Deixe uma avaliação</h2>
+    
+                <form id="avaliacaoForm">
+                    <div class="campos-form">
+                        <label for="nome">Nome: </label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+    
+                    <div class="campos-form">
+                        <label for="title">Título: </label>
+                        <input type="text" id="title" name="titulo">
+                    </div>
+    
+                    <div class="campos-form">
+                        <label for="avalie">Comente sua experiência: </label>
+                        <textarea rows="4" cols="50" id="avalie" name="comentario"></textarea>
+                    </div>
+    
+                    <div class="campos-form">
+                        <label for="Estabelec">Estabelecimento: </label>
+                        <input type="text" id="Estabelec" name="estabelecimento">
+                    </div>
+    
+                    <div class="campos-form">
+                        <label for="classificacao">Classificação: </label>
+                        <ul class="avaliacao">
+                            <li class="star-icon ativo" data-avaliacao="1"></li>
+                            <li class="star-icon" data-avaliacao="2"></li>
+                            <li class="star-icon" data-avaliacao="3"></li>
+                            <li class="star-icon" data-avaliacao="4"></li>
+                            <li class="star-icon" data-avaliacao="5"></li>
+                        </ul>
+                    </div>
+    
+                    <div class="submit" id="loucura">
+                        <button type="submit">Enviar</button>
+                    </div>
+    
+                    <div>
+                        <a id="btnAvaliacoes" onclick="redirectToDetails()" target="_blank">Ver avaliações</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>  
     <script src="./scripts/avaliacoes.js"></script>
     <script src="./scripts/detalhes.js"></script>
 </body>

@@ -2,9 +2,16 @@
 
 body{
 	min-height: 100vh;
+}
+
+#container-principal {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.container {
+	margin-top: 9em;
 }
 
 .card-container {

@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iGo Tour</title>
     <link rel="stylesheet" href="./styles/allLocations.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    <section id="exibiLocais" class="pt-5 d-flex justify-content-center aling-itens-center flex-wrap">
-          
-    </section>
+    <div class="navbar">
+        <img src="./img/BTN_Logo.png" alt="Logo">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./cadLocais.html">Cadastrar Local</a></li>
+          <li><a href="./allLocations.html">Ver Locais</a></li>
+        </ul>
+        <ul>
+          <li><button onclick="redirecionar()">Login</button></li>
+        </ul>
+      </div>
+      <div class="allLocais">
+          <section id="exibiLocais" class="pt-5 d-flex justify-content-center aling-itens-center flex-wrap"></section>
+      </div>
     <script src="./scripts/exibiLocais.js"></script>
 </body>
 </html>
