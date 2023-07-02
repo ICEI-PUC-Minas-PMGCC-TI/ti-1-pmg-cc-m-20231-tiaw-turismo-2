@@ -1,5 +1,21 @@
-# Código do Projeto
+# Estrutura de Diretórios
 
-Mantenha neste diretório todo o código fonte do projeto. 
-
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+```shell
+  .  
+  │  
+  ├── README.md  
+  ├── index.html  
+  │  
+  ├── pages/  
+  │  
+  ├── styles/  
+  │  
+  ├── scripts/  
+  │      ├── filteredSearch.js  
+  │      └── dynamicOptions.js  
+  │  
+  ├── data/  
+  │     └── data.json  
+  │  
+  └── images/  
+```
