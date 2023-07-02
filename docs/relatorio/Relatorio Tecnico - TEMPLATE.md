@@ -305,20 +305,13 @@ viagens. Nossa solução se dá em oferecer as informações de maneiras simples
 > As tecnologias utilizadas para desenvolvimento foram HTML, CSS, JavaScript e Bootstrap.
 > Outras tecnologias utilizadas para gerenciamento foram Git, GitHub, Miro, Visual Studio Code e Figma,
 >
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
+Em seguida está disponibilizado em a imagem do diagrama do projeto web desenvolvido.
 >
-> **Exemplo do diagrama de Arquitetura**:
->
+>Navegador: possui os documentos em HTML, CSS, JavaScript e os dados JSON em localStorage.
+>Internet: A aplicação está hospedada no Github Pages.
 > ![Exemplo de Wireframe](images/diagrama.png)
 
 # Avaliação da Aplicação
