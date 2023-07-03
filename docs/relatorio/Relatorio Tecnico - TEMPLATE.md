@@ -206,7 +206,7 @@ Para visualizar o wireframe pelo aplicativo do figma, acesse: <https://www.figma
 
 **2 - Sign-in**
 
-![Exemplo de Wireframe](images/signin.jpeg)
+![Exemplo de Wireframe](images/sigin.jpeg)
 
 **3 - Home**
 
