@@ -202,15 +202,37 @@ Para visualizar o wireframe pelo aplicativo do figma, acesse: <https://www.figma
 
 **1 - Login**
 
-![Exemplo de Wireframe](images/wireframe-login.png)
+![Exemplo de Wireframe](images/login.png)
 
 **2 - Sign-in**
 
-![Exemplo de Wireframe](images/wireframe-signin.png)
+![Exemplo de Wireframe](images/signin.png)
 
 **3 - Home**
 
-![Exemplo de Wireframe](images/wireframe-home.png)
+![Exemplo de Wireframe](images/home.png)
+
+**4 - Home + busca**
+
+![Exemplo de Wireframe](images/home+busca.png)
+
+**5 - Cadastro de locais**
+
+![Exemplo de Wireframe](images/cadastroLocais.png)
+
+**6 - Visualização dos locais**
+
+![Exemplo de Wireframe](images/verLocais.png)
+
+**7 - Exploraração do estabelecimento + Registro de avaliações**
+
+![Exemplo de Wireframe](images/explorar+registroDeAvaliacao.png)
+
+**8 - Ver avaliações**
+
+![Exemplo de Wireframe](images/verAvaliacoes.png)
+
+
 
 # Metodologia
 
